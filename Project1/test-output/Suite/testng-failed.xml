@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="E2E_Project.Project1.homepade">
+        <methods>
+          <include name="basepagenavigate" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- E2E_Project.Project1.homepade -->
+      <class name="E2E_Project.Project1.qatest">
+        <methods>
+          <include name="checktext"/>
+        </methods>
+      </class> <!-- E2E_Project.Project1.qatest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
